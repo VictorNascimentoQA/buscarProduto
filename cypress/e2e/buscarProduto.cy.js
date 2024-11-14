@@ -107,7 +107,7 @@ describe('Funcionalidade de Busca na Amazon', () => {
         });
     });
 
-    it.only('# Cenário 5: Buscar produto filtrando por avaliação mínima', () => {
+    it('# Cenário 5: Buscar produto filtrando por avaliação mínima', () => {
         // Realiza uma busca por "smartphone"
         cy.get('#twotabsearchtextbox').type('Smartphone{enter}');
     
@@ -129,7 +129,6 @@ describe('Funcionalidade de Busca na Amazon', () => {
         });
     });
     
-
 
 });
 
