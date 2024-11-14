@@ -188,3 +188,8 @@ Notas Adicionais:
 - **Ambientes de Teste**: Se houver múltiplos ambientes (desenvolvimento, homologação e produção), pode ser necessário mais tempo para validações entre os ambientes.
 - **Testes Repetitivos**: O tempo pode aumentar se houver a necessidade de repetir os testes para garantir a qualidade entre versões.
 - **Testes Exploratório**: A equipe pode precisar de tempo extra para testes exploratórios, identificando falhas não previstas pelos cenários.
+
+# Notas
+O arquivo de pipeline CI/CD do projeto encontra-se em .github/workflows
+
+![gif Pipeline](./docs/cicd.gif)
